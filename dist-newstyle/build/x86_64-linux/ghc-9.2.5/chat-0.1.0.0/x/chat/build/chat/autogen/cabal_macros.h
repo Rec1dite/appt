@@ -20,6 +20,16 @@
   (major1) == 4 && (major2) <  16 || \
   (major1) == 4 && (major2) == 16 && (minor) <= 4)
 #endif /* MIN_VERSION_base */
+/* package base16-bytestring-1.0.2.0 */
+#ifndef VERSION_base16_bytestring
+#define VERSION_base16_bytestring "1.0.2.0"
+#endif /* VERSION_base16_bytestring */
+#ifndef MIN_VERSION_base16_bytestring
+#define MIN_VERSION_base16_bytestring(major1,major2,minor) (\
+  (major1) <  1 || \
+  (major1) == 1 && (major2) <  0 || \
+  (major1) == 1 && (major2) == 0 && (minor) <= 2)
+#endif /* MIN_VERSION_base16_bytestring */
 /* package cryptohash-0.11.9 */
 #ifndef VERSION_cryptohash
 #define VERSION_cryptohash "0.11.9"
@@ -60,6 +70,16 @@
   (major1) == 3 && (major2) <  1 || \
   (major1) == 3 && (major2) == 1 && (minor) <= 2)
 #endif /* MIN_VERSION_network */
+/* package split-0.2.3.5 */
+#ifndef VERSION_split
+#define VERSION_split "0.2.3.5"
+#endif /* VERSION_split */
+#ifndef MIN_VERSION_split
+#define MIN_VERSION_split(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  2 || \
+  (major1) == 0 && (major2) == 2 && (minor) <= 3)
+#endif /* MIN_VERSION_split */
 /* package unix-time-0.4.9 */
 #ifndef VERSION_unix_time
 #define VERSION_unix_time "0.4.9"
