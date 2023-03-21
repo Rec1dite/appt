@@ -20,6 +20,36 @@
   (major1) == 4 && (major2) <  16 || \
   (major1) == 4 && (major2) == 16 && (minor) <= 4)
 #endif /* MIN_VERSION_base */
+/* package cryptohash-0.11.9 */
+#ifndef VERSION_cryptohash
+#define VERSION_cryptohash "0.11.9"
+#endif /* VERSION_cryptohash */
+#ifndef MIN_VERSION_cryptohash
+#define MIN_VERSION_cryptohash(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  11 || \
+  (major1) == 0 && (major2) == 11 && (minor) <= 9)
+#endif /* MIN_VERSION_cryptohash */
+/* package directory-1.3.6.2 */
+#ifndef VERSION_directory
+#define VERSION_directory "1.3.6.2"
+#endif /* VERSION_directory */
+#ifndef MIN_VERSION_directory
+#define MIN_VERSION_directory(major1,major2,minor) (\
+  (major1) <  1 || \
+  (major1) == 1 && (major2) <  3 || \
+  (major1) == 1 && (major2) == 3 && (minor) <= 6)
+#endif /* MIN_VERSION_directory */
+/* package filepath-1.4.2.2 */
+#ifndef VERSION_filepath
+#define VERSION_filepath "1.4.2.2"
+#endif /* VERSION_filepath */
+#ifndef MIN_VERSION_filepath
+#define MIN_VERSION_filepath(major1,major2,minor) (\
+  (major1) <  1 || \
+  (major1) == 1 && (major2) <  4 || \
+  (major1) == 1 && (major2) == 4 && (minor) <= 2)
+#endif /* MIN_VERSION_filepath */
 /* package network-3.1.2.8 */
 #ifndef VERSION_network
 #define VERSION_network "3.1.2.8"
@@ -30,6 +60,26 @@
   (major1) == 3 && (major2) <  1 || \
   (major1) == 3 && (major2) == 1 && (minor) <= 2)
 #endif /* MIN_VERSION_network */
+/* package unix-time-0.4.9 */
+#ifndef VERSION_unix_time
+#define VERSION_unix_time "0.4.9"
+#endif /* VERSION_unix_time */
+#ifndef MIN_VERSION_unix_time
+#define MIN_VERSION_unix_time(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  4 || \
+  (major1) == 0 && (major2) == 4 && (minor) <= 9)
+#endif /* MIN_VERSION_unix_time */
+/* package utf8-string-1.0.2 */
+#ifndef VERSION_utf8_string
+#define VERSION_utf8_string "1.0.2"
+#endif /* VERSION_utf8_string */
+#ifndef MIN_VERSION_utf8_string
+#define MIN_VERSION_utf8_string(major1,major2,minor) (\
+  (major1) <  1 || \
+  (major1) == 1 && (major2) <  0 || \
+  (major1) == 1 && (major2) == 0 && (minor) <= 2)
+#endif /* MIN_VERSION_utf8_string */
 
 /* tool gcc-11 */
 #ifndef TOOL_VERSION_gcc

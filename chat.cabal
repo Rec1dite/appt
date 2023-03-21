@@ -30,6 +30,12 @@ executable chat
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
     build-depends:      base,
-                        network
+                        network,
+                        unix-time,
+                        cryptohash,
+                        utf8-string,
+                        directory,
+                        filepath
+
     hs-source-dirs:   app
     default-language: Haskell2010
