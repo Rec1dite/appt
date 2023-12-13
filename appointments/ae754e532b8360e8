@@ -1,0 +1,1 @@
+Appointment {time = Time {day = 1, month = 1, year = 2001, hour = 1, minute = 1}, location = "Joburg", description = "ASDF"}
